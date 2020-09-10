@@ -10,4 +10,4 @@ Notebook was created in Google Colab
 
 #### Accuracy - 88.65419
 #### Rank - 322
-### Thanks for reading.
+
