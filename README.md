@@ -7,4 +7,7 @@ We have been given training and testing dataset which has columns like the Pet_I
 All the code with explanations are given in the .ipynb file.
 I have also given training and testing data for reference.
 Notebook was created in Google Colab
+
+#### Accuracy - 88.65419
+#### Rank - 322
 ### Thanks for reading.
