@@ -1,0 +1,16 @@
+HackerEarth Machine Learning challenge : Adopt a buddy
+
+1. Performed EDA , and found that "condition" column had some NULL values. On more
+   analysis I found that all the condition column with NULL values had same
+   breed category 2.0.
+
+		----->>> "breed_category" PREDICTION <<<---------
+1.  For Breed Prediction I assumed that "breed_category" is independent from 
+    "pet_category".
+2.  Tools I used are :
+	1. Simple Imputer - to fill NULL values (if any).
+	2. OneHotEncoder  - to convert non-numeric columns to numeric columns.
+3.  Used RandomForestClassifier to classify the breeds.
+4.  Performed GridSearchCV with different values to improve the model accuracy.
+
+Applied Similar Steps to predict "pet_category".
